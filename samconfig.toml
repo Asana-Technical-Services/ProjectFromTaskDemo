@@ -1,0 +1,27 @@
+ version=0.1
+ [default.global.parameters]
+
+ [default.deploy.parameters]
+ container_env_var_file = ".env.json"
+ stack_name = "DemoProjectApp"
+ s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-6miwi01gs8e2"
+ s3_prefix = "DemoProjectApp"
+ region = "us-east-1"
+ confirm_changeset = true
+ capabilities = "CAPABILITY_IAM"
+ image_repositories = []
+
+ [default.build.parameters]
+ container_env_var_file = ".env.json"
+
+ [default.local.start-api]
+ [default.local.start-api.parameters]
+ env_vars=".env.json"
+
+   [default.local.start-lambda]
+ [default.local.start-lambda.parameters]
+ env_vars=".env.json"
+
+   [default.local.invoke]
+ [default.local.invoke.parameters]
+ env_vars=".env.json"

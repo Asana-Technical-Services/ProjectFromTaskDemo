@@ -1,0 +1,1291 @@
+{
+    "data": {
+        "gid": "1200186636523774",
+        "assignee": null,
+        "assignee_status": "upcoming",
+        "completed": false,
+        "completed_at": null,
+        "created_at": "2021-04-12T22:13:52.642Z",
+        "custom_fields": [{
+                "gid": "196365628865162",
+                "enabled": true,
+                "enum_options": [{
+                        "gid": "196365628865163",
+                        "color": "red",
+                        "enabled": true,
+                        "name": "High",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "196365628865164",
+                        "color": "orange",
+                        "enabled": true,
+                        "name": "Medium",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "196365628865165",
+                        "color": "yellow-orange",
+                        "enabled": true,
+                        "name": "Low",
+                        "resource_type": "enum_option"
+                    }
+                ],
+                "enum_value": null,
+                "name": "Priority",
+                "created_by": null,
+                "display_value": null,
+                "resource_subtype": "enum",
+                "resource_type": "custom_field",
+                "type": "enum"
+            },
+            {
+                "gid": "1200132422863408",
+                "enabled": true,
+                "enum_options": [{
+                        "gid": "1200132422863409",
+                        "color": "yellow",
+                        "enabled": true,
+                        "name": "Internal",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200132422863410",
+                        "color": "green",
+                        "enabled": true,
+                        "name": "Print",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200132422863411",
+                        "color": "blue-green",
+                        "enabled": true,
+                        "name": "Ad",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200132422863412",
+                        "color": "blue",
+                        "enabled": true,
+                        "name": "Site",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200132422863413",
+                        "color": "indigo",
+                        "enabled": true,
+                        "name": "Email",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200132422863414",
+                        "color": "magenta",
+                        "enabled": true,
+                        "name": "Video",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200132422863415",
+                        "color": "aqua",
+                        "enabled": true,
+                        "name": "Social",
+                        "resource_type": "enum_option"
+                    }
+                ],
+                "enum_value": null,
+                "name": "Creative channel",
+                "created_by": null,
+                "display_value": null,
+                "resource_subtype": "enum",
+                "resource_type": "custom_field",
+                "type": "enum"
+            },
+            {
+                "gid": "1108132650933474",
+                "enabled": true,
+                "enum_options": [{
+                        "gid": "1108132650933475",
+                        "color": "blue",
+                        "enabled": true,
+                        "name": "Not Started",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1108132650933476",
+                        "color": "cool-gray",
+                        "enabled": true,
+                        "name": "In Progress",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1108132650933477",
+                        "color": "yellow",
+                        "enabled": true,
+                        "name": "Waiting",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1108132650933478",
+                        "color": "orange",
+                        "enabled": true,
+                        "name": "Deferred",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1108132650933479",
+                        "color": "blue-green",
+                        "enabled": true,
+                        "name": "Done",
+                        "resource_type": "enum_option"
+                    }
+                ],
+                "enum_value": null,
+                "name": "Task Progress",
+                "created_by": null,
+                "display_value": null,
+                "resource_subtype": "enum",
+                "resource_type": "custom_field",
+                "type": "enum"
+            },
+            {
+                "gid": "1200133751954722",
+                "enabled": true,
+                "enum_options": [{
+                        "gid": "1200133751954728",
+                        "color": "green",
+                        "enabled": true,
+                        "name": "CRM",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133751955823",
+                        "color": "orange",
+                        "enabled": true,
+                        "name": "Growth",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133751955827",
+                        "color": "red",
+                        "enabled": true,
+                        "name": "Comms",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133751955829",
+                        "color": "yellow-orange",
+                        "enabled": true,
+                        "name": "Integrated Marketing",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133751956794",
+                        "color": "yellow",
+                        "enabled": true,
+                        "name": "Product",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133751956797",
+                        "color": "yellow-green",
+                        "enabled": true,
+                        "name": "Creative",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133751956803",
+                        "color": "blue-green",
+                        "enabled": true,
+                        "name": "Other",
+                        "resource_type": "enum_option"
+                    }
+                ],
+                "enum_value": {
+                    "gid": "1200133751954728",
+                    "color": "green",
+                    "enabled": true,
+                    "name": "CRM",
+                    "resource_type": "enum_option"
+                },
+                "name": "Requesting Team",
+                "created_by": {
+                    "gid": "1147384887240449",
+                    "name": "Deanna Zirbes",
+                    "resource_type": "user"
+                },
+                "display_value": "CRM",
+                "resource_subtype": "enum",
+                "resource_type": "custom_field",
+                "type": "enum"
+            },
+            {
+                "gid": "1200133826156132",
+                "enabled": true,
+                "enum_options": [{
+                        "gid": "1200133826156136",
+                        "color": "green",
+                        "enabled": true,
+                        "name": "Email",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133826156141",
+                        "color": "orange",
+                        "enabled": true,
+                        "name": "Email (Shop Specific)",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133826157167",
+                        "color": "yellow-orange",
+                        "enabled": true,
+                        "name": "Push Notification",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133826157171",
+                        "color": "red",
+                        "enabled": true,
+                        "name": "Email + Push Notification",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133826157175",
+                        "color": "yellow",
+                        "enabled": true,
+                        "name": "Organic Social",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133826157181",
+                        "color": "yellow-green",
+                        "enabled": true,
+                        "name": "Web/App",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133826159175",
+                        "color": "blue-green",
+                        "enabled": true,
+                        "name": "Print",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133826159179",
+                        "color": "aqua",
+                        "enabled": true,
+                        "name": "Paid Social",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133826159184",
+                        "color": "blue",
+                        "enabled": true,
+                        "name": "Video",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133826159188",
+                        "color": "indigo",
+                        "enabled": true,
+                        "name": "Exclusive Brand",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133826159193",
+                        "color": "purple",
+                        "enabled": true,
+                        "name": "Partnership",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133826159199",
+                        "color": "magenta",
+                        "enabled": true,
+                        "name": "Influencer",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133826159203",
+                        "color": "hot-pink",
+                        "enabled": true,
+                        "name": "Discplay",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133826159206",
+                        "color": "pink",
+                        "enabled": true,
+                        "name": "Radio/Podcast",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133826159209",
+                        "color": "cool-gray",
+                        "enabled": true,
+                        "name": "TV/Video",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133826160189",
+                        "color": "none",
+                        "enabled": true,
+                        "name": "OOH (Out of Home)",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133826160196",
+                        "color": "none",
+                        "enabled": true,
+                        "name": "Event",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133826160204",
+                        "color": "none",
+                        "enabled": true,
+                        "name": "Earned",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133826160272",
+                        "color": "none",
+                        "enabled": true,
+                        "name": "Digital Media Misc",
+                        "resource_type": "enum_option"
+                    }
+                ],
+                "enum_value": {
+                    "gid": "1200133826156136",
+                    "color": "green",
+                    "enabled": true,
+                    "name": "Email",
+                    "resource_type": "enum_option"
+                },
+                "name": "Channel",
+                "created_by": {
+                    "gid": "1147384887240449",
+                    "name": "Deanna Zirbes",
+                    "resource_type": "user"
+                },
+                "display_value": "Email",
+                "resource_subtype": "enum",
+                "resource_type": "custom_field",
+                "type": "enum"
+            },
+            {
+                "gid": "1200133828924518",
+                "enabled": true,
+                "enum_options": [{
+                        "gid": "1200133828926571",
+                        "color": "green",
+                        "enabled": true,
+                        "name": "Womens",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133828926578",
+                        "color": "orange",
+                        "enabled": true,
+                        "name": "Mens",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133828926586",
+                        "color": "red",
+                        "enabled": true,
+                        "name": "Kids",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133828927616",
+                        "color": "yellow-orange",
+                        "enabled": true,
+                        "name": "Neutral",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133828927622",
+                        "color": "yellow",
+                        "enabled": true,
+                        "name": "All",
+                        "resource_type": "enum_option"
+                    }
+                ],
+                "enum_value": {
+                    "gid": "1200133828926571",
+                    "color": "green",
+                    "enabled": true,
+                    "name": "Womens",
+                    "resource_type": "enum_option"
+                },
+                "name": "Business Line",
+                "created_by": {
+                    "gid": "1147384887240449",
+                    "name": "Deanna Zirbes",
+                    "resource_type": "user"
+                },
+                "display_value": "Womens",
+                "resource_subtype": "enum",
+                "resource_type": "custom_field",
+                "type": "enum"
+            },
+            {
+                "gid": "1200133830234682",
+                "enabled": true,
+                "enum_options": [{
+                        "gid": "1200133830235712",
+                        "color": "green",
+                        "enabled": true,
+                        "name": "Near term = 100% of impact within 14 days of delivery date 1",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133830235717",
+                        "color": "red",
+                        "enabled": true,
+                        "name": "Both term = While there is a burst of impact from this creative within 14 days, it will also impact behavior for some time after",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133830235786",
+                        "color": "orange",
+                        "enabled": true,
+                        "name": "Long term = The majority of the impact of this creative will over months and more than 14 days after the delivery date",
+                        "resource_type": "enum_option"
+                    }
+                ],
+                "enum_value": {
+                    "gid": "1200133830235712",
+                    "color": "green",
+                    "enabled": true,
+                    "name": "Near term = 100% of impact within 14 days of delivery date 1",
+                    "resource_type": "enum_option"
+                },
+                "name": "Business Impact",
+                "created_by": {
+                    "gid": "1147384887240449",
+                    "name": "Deanna Zirbes",
+                    "resource_type": "user"
+                },
+                "display_value": "Near term = 100% of impact within 14 days of delivery date 1",
+                "resource_subtype": "enum",
+                "resource_type": "custom_field",
+                "type": "enum"
+            },
+            {
+                "gid": "1200133832195659",
+                "enabled": true,
+                "enum_options": [{
+                        "gid": "1200133832195666",
+                        "color": "green",
+                        "enabled": true,
+                        "name": "6 - High = Creative support “critical” to a major strategic initiative or company reputation",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133832195670",
+                        "color": "red",
+                        "enabled": true,
+                        "name": "5 = High + Flex",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133832195674",
+                        "color": "orange",
+                        "enabled": true,
+                        "name": "4 - Med = Creative support “critical” to maintaining current growth targets for Stitch Fix’s business, or announcing key launches",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133832195677",
+                        "color": "yellow-orange",
+                        "enabled": true,
+                        "name": "3 = Med + Flex",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133832195681",
+                        "color": "yellow",
+                        "enabled": true,
+                        "name": "2 - Low = Creative support “non-critical” but still requested for major strategic initiatives or maintaining growth targets for Stitch Fix’s business",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133832195685",
+                        "color": "yellow-green",
+                        "enabled": true,
+                        "name": "1 = Low + Flex",
+                        "resource_type": "enum_option"
+                    }
+                ],
+                "enum_value": {
+                    "gid": "1200133832195666",
+                    "color": "green",
+                    "enabled": true,
+                    "name": "6 - High = Creative support “critical” to a major strategic initiative or company reputation",
+                    "resource_type": "enum_option"
+                },
+                "name": "Strategic Priority",
+                "created_by": {
+                    "gid": "1147384887240449",
+                    "name": "Deanna Zirbes",
+                    "resource_type": "user"
+                },
+                "display_value": "6 - High = Creative support “critical” to a major strategic initiative or company reputation",
+                "resource_subtype": "enum",
+                "resource_type": "custom_field",
+                "type": "enum"
+            },
+            {
+                "gid": "1200133835155061",
+                "enabled": true,
+                "enum_options": [{
+                        "gid": "1200133835156094",
+                        "color": "green",
+                        "enabled": true,
+                        "name": "4 - High = $1,000,000+",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133835156098",
+                        "color": "red",
+                        "enabled": true,
+                        "name": "3 - Med = $100,000+",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133835156104",
+                        "color": "orange",
+                        "enabled": true,
+                        "name": "2 - Low = $5,000+",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133835157131",
+                        "color": "yellow-orange",
+                        "enabled": true,
+                        "name": "1 - Unclear = No financial impact or less than $5k",
+                        "resource_type": "enum_option"
+                    }
+                ],
+                "enum_value": {
+                    "gid": "1200133835156094",
+                    "color": "green",
+                    "enabled": true,
+                    "name": "4 - High = $1,000,000+",
+                    "resource_type": "enum_option"
+                },
+                "name": "Incremental Revenue Impact",
+                "created_by": {
+                    "gid": "1147384887240449",
+                    "name": "Deanna Zirbes",
+                    "resource_type": "user"
+                },
+                "display_value": "4 - High = $1,000,000+",
+                "resource_subtype": "enum",
+                "resource_type": "custom_field",
+                "type": "enum"
+            },
+            {
+                "gid": "1200133765988635",
+                "enabled": true,
+                "enum_options": [{
+                        "gid": "1200133765988645",
+                        "color": "green",
+                        "enabled": true,
+                        "name": "Design + Copy",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133765988655",
+                        "color": "red",
+                        "enabled": true,
+                        "name": "Design + Curation",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133765988662",
+                        "color": "orange",
+                        "enabled": true,
+                        "name": "Design + Curation + Copy",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133765988670",
+                        "color": "yellow-orange",
+                        "enabled": true,
+                        "name": "Copy + Curation",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133765988677",
+                        "color": "yellow",
+                        "enabled": true,
+                        "name": "Only Curation",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133765988687",
+                        "color": "yellow-green",
+                        "enabled": true,
+                        "name": "Only Design",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133765988690",
+                        "color": "blue-green",
+                        "enabled": true,
+                        "name": "Only Copy",
+                        "resource_type": "enum_option"
+                    }
+                ],
+                "enum_value": {
+                    "gid": "1200133765988645",
+                    "color": "green",
+                    "enabled": true,
+                    "name": "Design + Copy",
+                    "resource_type": "enum_option"
+                },
+                "name": "Creative Needed",
+                "created_by": {
+                    "gid": "1147384887240449",
+                    "name": "Deanna Zirbes",
+                    "resource_type": "user"
+                },
+                "display_value": "Design + Copy",
+                "resource_subtype": "enum",
+                "resource_type": "custom_field",
+                "type": "enum"
+            },
+            {
+                "gid": "1200133893566877",
+                "enabled": true,
+                "enum_options": [{
+                        "gid": "1200133893566880",
+                        "color": "green",
+                        "enabled": true,
+                        "name": "Fix BAU",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133893566887",
+                        "color": "yellow-green",
+                        "enabled": true,
+                        "name": "Shop BAU",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133893566889",
+                        "color": "orange",
+                        "enabled": true,
+                        "name": "Reach",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133893566895",
+                        "color": "yellow-orange",
+                        "enabled": true,
+                        "name": "Shop",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133893566896",
+                        "color": "yellow",
+                        "enabled": true,
+                        "name": "Shop + Reach",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133893566899",
+                        "color": "blue-green",
+                        "enabled": true,
+                        "name": "BAU + Reach",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133893566903",
+                        "color": "red",
+                        "enabled": true,
+                        "name": "Renovate",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133893567932",
+                        "color": "aqua",
+                        "enabled": true,
+                        "name": "Innovate Experience",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133893567934",
+                        "color": "blue",
+                        "enabled": true,
+                        "name": "Disrupt",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133893567940",
+                        "color": "indigo",
+                        "enabled": true,
+                        "name": "Integrated Marketing Campaign",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133893568970",
+                        "color": "purple",
+                        "enabled": true,
+                        "name": "Diversity, Equity and Inclusion (DEI)",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133893568975",
+                        "color": "magenta",
+                        "enabled": true,
+                        "name": "N/A",
+                        "resource_type": "enum_option"
+                    }
+                ],
+                "enum_value": {
+                    "gid": "1200133893566880",
+                    "color": "green",
+                    "enabled": true,
+                    "name": "Fix BAU",
+                    "resource_type": "enum_option"
+                },
+                "name": "Initiative/Workstream",
+                "created_by": {
+                    "gid": "1147384887240449",
+                    "name": "Deanna Zirbes",
+                    "resource_type": "user"
+                },
+                "display_value": "Fix BAU",
+                "resource_subtype": "enum",
+                "resource_type": "custom_field",
+                "type": "enum"
+            },
+            {
+                "gid": "1199877156412220",
+                "enabled": true,
+                "enum_options": [{
+                        "gid": "1200133434274951",
+                        "color": "red",
+                        "enabled": true,
+                        "name": "Curation Needed?",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1199877156412221",
+                        "color": "green",
+                        "enabled": true,
+                        "name": "Curation Request Made",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1199877156412222",
+                        "color": "orange",
+                        "enabled": true,
+                        "name": "In Queue",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1199877156412223",
+                        "color": "aqua",
+                        "enabled": true,
+                        "name": "Active",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1199877156412224",
+                        "color": "yellow",
+                        "enabled": true,
+                        "name": "Curation Submitted for Review",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1199877156412225",
+                        "color": "hot-pink",
+                        "enabled": true,
+                        "name": "Done!",
+                        "resource_type": "enum_option"
+                    }
+                ],
+                "enum_value": null,
+                "name": "Curation Workflow",
+                "created_by": {
+                    "gid": "1147384887240449",
+                    "name": "Deanna Zirbes",
+                    "resource_type": "user"
+                },
+                "display_value": null,
+                "resource_subtype": "enum",
+                "resource_type": "custom_field",
+                "type": "enum"
+            },
+            {
+                "gid": "1200132422863297",
+                "enabled": true,
+                "enum_options": [{
+                        "gid": "1200132422863298",
+                        "color": "green",
+                        "enabled": true,
+                        "name": "In Queue",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200132422863299",
+                        "color": "orange",
+                        "enabled": true,
+                        "name": "Master",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200132422863300",
+                        "color": "yellow-orange",
+                        "enabled": true,
+                        "name": "Working",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200132422863301",
+                        "color": "yellow",
+                        "enabled": true,
+                        "name": "Changes",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200132422863302",
+                        "color": "red",
+                        "enabled": true,
+                        "name": "Assets Ready",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200132422863303",
+                        "color": "yellow-green",
+                        "enabled": true,
+                        "name": "Assets Missing",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200132422863304",
+                        "color": "blue-green",
+                        "enabled": true,
+                        "name": "Approval Pending",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200132422863305",
+                        "color": "aqua",
+                        "enabled": true,
+                        "name": "Approval FPO",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200132422863306",
+                        "color": "blue",
+                        "enabled": true,
+                        "name": "Approved",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200132422863307",
+                        "color": "red",
+                        "enabled": true,
+                        "name": "FUEGO: Assets Ready",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200132422863308",
+                        "color": "red",
+                        "enabled": true,
+                        "name": "FUEGO: Assets Missing",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200132422863309",
+                        "color": "red",
+                        "enabled": true,
+                        "name": "FUEGO: Changes",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200132422863310",
+                        "color": "red",
+                        "enabled": true,
+                        "name": "FUEGO: Approval Pending",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200132422863311",
+                        "color": "red",
+                        "enabled": true,
+                        "name": "FUEGO: Approved",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200132422863312",
+                        "color": "red",
+                        "enabled": true,
+                        "name": "FUEGO: done!",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200132422863313",
+                        "color": "cool-gray",
+                        "enabled": true,
+                        "name": "Hold",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200132422863314",
+                        "color": "cool-gray",
+                        "enabled": true,
+                        "name": "Template",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200132422863315",
+                        "color": "cool-gray",
+                        "enabled": true,
+                        "name": "Canceled",
+                        "resource_type": "enum_option"
+                    }
+                ],
+                "enum_value": null,
+                "name": "Email Tech Status",
+                "created_by": {
+                    "gid": "1147384887240449",
+                    "name": "Deanna Zirbes",
+                    "resource_type": "user"
+                },
+                "display_value": null,
+                "resource_subtype": "enum",
+                "resource_type": "custom_field",
+                "type": "enum"
+            },
+            {
+                "gid": "1200133379138870",
+                "enabled": true,
+                "enum_options": [{
+                        "gid": "1200133379138880",
+                        "color": "green",
+                        "enabled": true,
+                        "name": "Pending Request",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133379138884",
+                        "color": "red",
+                        "enabled": true,
+                        "name": "Retouching Request Made",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133379138956",
+                        "color": "orange",
+                        "enabled": true,
+                        "name": "In Queue",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133379138967",
+                        "color": "yellow-orange",
+                        "enabled": true,
+                        "name": "Waiting for Go By Approval",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133379138973",
+                        "color": "yellow",
+                        "enabled": true,
+                        "name": "Sent out for pathing",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133379138978",
+                        "color": "yellow-green",
+                        "enabled": true,
+                        "name": "Active",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133379138984",
+                        "color": "blue-green",
+                        "enabled": true,
+                        "name": "REady for Crop",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133379140012",
+                        "color": "aqua",
+                        "enabled": true,
+                        "name": "Ready for QC",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133379140019",
+                        "color": "blue",
+                        "enabled": true,
+                        "name": "Assets Delivered",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133379140027",
+                        "color": "indigo",
+                        "enabled": true,
+                        "name": "On Hold",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133379142084",
+                        "color": "purple",
+                        "enabled": true,
+                        "name": "Canceled",
+                        "resource_type": "enum_option"
+                    }
+                ],
+                "enum_value": null,
+                "name": "Retouching Requests",
+                "created_by": {
+                    "gid": "1147384887240449",
+                    "name": "Deanna Zirbes",
+                    "resource_type": "user"
+                },
+                "display_value": null,
+                "resource_subtype": "enum",
+                "resource_type": "custom_field",
+                "type": "enum"
+            },
+            {
+                "gid": "1200133368591127",
+                "enabled": true,
+                "enum_options": [{
+                        "gid": "1200133368591133",
+                        "color": "green",
+                        "enabled": true,
+                        "name": "In Queue",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133368591134",
+                        "color": "orange",
+                        "enabled": true,
+                        "name": "Active ",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133368591139",
+                        "color": "yellow-orange",
+                        "enabled": true,
+                        "name": "Done!",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133368591142",
+                        "color": "yellow",
+                        "enabled": true,
+                        "name": "Hold",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1200133368591149",
+                        "color": "red",
+                        "enabled": true,
+                        "name": "Canceled",
+                        "resource_type": "enum_option"
+                    }
+                ],
+                "enum_value": null,
+                "name": "Task Status (Creative)",
+                "created_by": {
+                    "gid": "1147384887240449",
+                    "name": "Deanna Zirbes",
+                    "resource_type": "user"
+                },
+                "display_value": null,
+                "resource_subtype": "enum",
+                "resource_type": "custom_field",
+                "type": "enum"
+            },
+            {
+                "gid": "1181501528302734",
+                "enabled": true,
+                "enum_options": [{
+                        "gid": "1181501528302735",
+                        "color": "cool-gray",
+                        "enabled": true,
+                        "name": "Not Started",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1181501528302736",
+                        "color": "aqua",
+                        "enabled": true,
+                        "name": "Kick off / Building",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1181501528302737",
+                        "color": "blue",
+                        "enabled": true,
+                        "name": "In Progress",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1181501528302738",
+                        "color": "yellow",
+                        "enabled": true,
+                        "name": "Waiting / on hold",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1181501528302739",
+                        "color": "pink",
+                        "enabled": true,
+                        "name": "Deferred",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1181501528302740",
+                        "color": "blue-green",
+                        "enabled": true,
+                        "name": "Complete / Live",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1198752048297091",
+                        "color": "orange",
+                        "enabled": true,
+                        "name": "In Discovery",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "1199976584227017",
+                        "color": "red",
+                        "enabled": true,
+                        "name": "Blocked",
+                        "resource_type": "enum_option"
+                    }
+                ],
+                "enum_value": null,
+                "name": "Task Progress",
+                "created_by": {
+                    "gid": "1164526306272912",
+                    "name": "Debra Hamill",
+                    "resource_type": "user"
+                },
+                "display_value": null,
+                "resource_subtype": "enum",
+                "resource_type": "custom_field",
+                "type": "enum"
+            },
+            {
+                "gid": "928040063293105",
+                "enabled": true,
+                "enum_options": [{
+                        "gid": "928040063293106",
+                        "color": "blue",
+                        "enabled": true,
+                        "name": "Not Started",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "928040063293107",
+                        "color": "cool-gray",
+                        "enabled": true,
+                        "name": "In Prog",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "928040063293108",
+                        "color": "yellow",
+                        "enabled": true,
+                        "name": "Waiting",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "928040063293109",
+                        "color": "orange",
+                        "enabled": true,
+                        "name": "On Hold",
+                        "resource_type": "enum_option"
+                    },
+                    {
+                        "gid": "928040063293110",
+                        "color": "blue-green",
+                        "enabled": true,
+                        "name": "Done",
+                        "resource_type": "enum_option"
+                    }
+                ],
+                "enum_value": null,
+                "name": "Task Progress",
+                "created_by": null,
+                "display_value": null,
+                "resource_subtype": "enum",
+                "resource_type": "custom_field",
+                "type": "enum"
+            }
+        ],
+        "due_at": null,
+        "due_on": "2021-04-30",
+        "followers": [],
+        "hearted": false,
+        "hearts": [],
+        "liked": false,
+        "likes": [],
+        "memberships": [{
+                "project": {
+                    "gid": "1200185362952044",
+                    "name": "Asana Test xx 1200185362952044",
+                    "resource_type": "project"
+                },
+                "section": {
+                    "gid": "1200185362952045",
+                    "name": "Creative Tasks + Milestones",
+                    "resource_type": "section"
+                }
+            },
+            {
+                "project": {
+                    "gid": "1200132422863383",
+                    "name": "Creative Requests",
+                    "resource_type": "project"
+                },
+                "section": {
+                    "gid": "1200132422863399",
+                    "name": "Deanna",
+                    "resource_type": "section"
+                }
+            }
+        ],
+        "modified_at": "2021-05-04T22:05:30.162Z",
+        "name": "Asana Test",
+        "notes": "Project Name:\nAsana Test\n\nName:\nKara\n\nEmail address:\nkara.sirianni@stitchfix.com\n\nProject Owner(s):\nxx\n\nRequesting Team:\nCRM\n\nChannel:\nEmail\n\nBusiness Line:\nWomens\n\nBusiness Impact:\nNear term = 100% of impact within 14 days of delivery date 1\n\nStrategic Priority:\n6 - High = Creative support “critical” to a major strategic initiative or company reputation\n\nIncremental Revenue Impact:\n4 - High = $1,000,000+\n\nCreative Needed:\nDesign + Copy\n\nHand Off Date:\nApr 30, 2021\n\nTarget Live Date:\nMay 6, 2021\n\nInitiative/Workstream:\nFix BAU\n\nSummarize Request::\nxx\n\nSummarize Deliverables::\nxx\n\nMessaging Hierarchy::\nxx\n\nSpecific Target Audience::\nxx\n\nSpecific Design Request::\nxx\n\nSpecific Curation Request::\nxx\n\nSuccess Metrics::\nxx\n\nSupporting Resources (links)::\nxx\n\n———————————————\nThis task was submitted through Creative Requests\nhttps://form.asana.com/?k=K6GAzpR1uApurHF2C4v5Bg&d=9379939236789",
+        "num_hearts": 0,
+        "num_likes": 0,
+        "parent": null,
+        "permalink_url": "https://app.asana.com/0/1200132422863383/1200186636523774",
+        "projects": [{
+                "gid": "1200132422863383",
+                "name": "Creative Requests",
+                "resource_type": "project"
+            },
+            {
+                "gid": "1200185362952044",
+                "name": "Asana Test xx 1200185362952044",
+                "resource_type": "project"
+            }
+        ],
+        "resource_type": "task",
+        "start_on": null,
+        "tags": [],
+        "resource_subtype": "default_task",
+        "workspace": {
+            "gid": "9379939236789",
+            "name": "Stitch Fix",
+            "resource_type": "workspace"
+        }
+    }
+}

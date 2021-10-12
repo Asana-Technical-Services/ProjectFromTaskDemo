@@ -1,0 +1,102 @@
+AWSTemplateFormatVersion: "2010-09-09"
+Transform: AWS::Serverless-2016-10-31
+Description: Stitch Fix Asana Bot - Automates the creation of new projects in Asana for the Creative requests
+
+Globals:
+  Function:
+    Timeout: 180
+    Runtime: python3.8
+
+Resources:
+  BotFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: bot/
+      Handler: app.lambda_handler
+      Events:
+        StitchFixBot:
+          Type: Api
+          Properties:
+            Path: /bot
+            Method: post
+      Environment:
+        Variables:
+          BOT_STATE_MACHINE_ARN: !GetAtt [BotStateMachine, Arn]
+          BOT_SECRET_ARN: !Ref BotSecret
+      Policies:
+        Statement:
+          - Effect: "Allow"
+            Action:
+              - "states:*"
+            Resource: !GetAtt [BotStateMachine, Arn]
+          - Effect: "Allow"
+            Action:
+              - "secretsmanager:*"
+            Resource: !Ref BotSecret
+
+  NewProjectFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: newProject/
+      Handler: app.lambda_handler
+      Environment:
+        Variables:
+          ASANA_API_URL: "https://app.asana.com/api/1.0/"
+
+  BotSecret:
+    Type: "AWS::SecretsManager::Secret"
+    Properties:
+      SecretString: '{"apiKey":"","webhookSecret":""}'
+
+  BotStatesExecutionRole:
+    Type: "AWS::IAM::Role"
+    Properties:
+      AssumeRolePolicyDocument:
+        Version: "2012-10-17"
+        Statement:
+          - Effect: "Allow"
+            Principal:
+              Service:
+                - !Sub states.${AWS::Region}.amazonaws.com
+            Action: "sts:AssumeRole"
+      Path: "/"
+      Policies:
+        - PolicyName: StatesExecutionPolicy
+          PolicyDocument:
+            Version: "2012-10-17"
+            Statement:
+              - Effect: Allow
+                Action:
+                  - "lambda:InvokeFunction"
+                Resource: "*"
+
+  BotStateMachine:
+    Type: "AWS::StepFunctions::StateMachine"
+    Properties:
+      DefinitionString: !Sub
+        - |-
+          {
+            "Comment": "State Machine for Stitch Fix Asana Bot",
+            "StartAt": "ProcessEvent",
+            "States": {
+              "ProcessEvent": {
+                "Type": "Choice",
+                "Choices": [
+                  {
+                    "Variable": "$.action",
+                    "StringEquals": "NEW_PROJECT",
+                    "Next": "NewProject"
+                  }
+                  
+                ]
+              },
+              "NewProject": {
+                "Type": "Task",
+                "Resource": "${newProjectLambdaArn}",
+                "End": true
+              }
+              
+            }
+          }
+        - { newProjectLambdaArn: !GetAtt [NewProjectFunction, Arn] }
+      RoleArn: !GetAtt [BotStatesExecutionRole, Arn]
