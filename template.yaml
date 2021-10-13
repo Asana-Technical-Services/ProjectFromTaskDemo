@@ -1,6 +1,6 @@
 AWSTemplateFormatVersion: "2010-09-09"
 Transform: AWS::Serverless-2016-10-31
-Description: Stitch Fix Asana Bot - Automates the creation of new projects in Asana for the Creative requests
+Description: Automates the creation of new projects in Asana from tasks
 
 Globals:
   Function:
@@ -14,7 +14,7 @@ Resources:
       CodeUri: bot/
       Handler: app.lambda_handler
       Events:
-        StitchFixBot:
+        Bot:
           Type: Api
           Properties:
             Path: /bot
@@ -76,7 +76,7 @@ Resources:
       DefinitionString: !Sub
         - |-
           {
-            "Comment": "State Machine for Stitch Fix Asana Bot",
+            "Comment": "State Machine for Asana Bot",
             "StartAt": "ProcessEvent",
             "States": {
               "ProcessEvent": {

@@ -9,4 +9,4 @@ ASANA_API_URL = "https://app.asana.com/api/1.0/"
 
 # Asana template project ID
 
-PROJECT_TEMPLATE_GID = "1200934971198980"
+PROJECT_TEMPLATE_GID = ""
