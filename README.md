@@ -1,6 +1,6 @@
 # Project from Task automation
 
-This project contains source code and supporting files for the Asana automation created for Stitch Fix.
+This project contains source code and supporting files for a demonstration Asana automation.
 
 ## Objective
 
